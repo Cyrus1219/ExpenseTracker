@@ -109,7 +109,9 @@ function genID() {
 
 function init() {
   list.innerHTML = '';
+  console.log(transaction, ' trans ');
   transaction.forEach(addTransactionDOM);
+  updateValues();
 }
 
 init();
